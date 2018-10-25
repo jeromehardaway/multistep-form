@@ -4,10 +4,11 @@ import MainForm from './components/MainForm';
 import { Container } from 'semantic-ui-react';
 
 class App extends Component {
-  render () {
-    return(
+
+  render() {
+    return (
       <Container textAlign='center'>
-        <MainForm/>
+        <MainForm />
       </Container>
     )
   }
